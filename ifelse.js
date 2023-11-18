@@ -17,11 +17,11 @@
 // }
 
 const nilai = prompt('Masukkan Nilai Anda')
-if(nilai>90){
+if(nilai=>90){
     alert('Grade A')
-}else if(nilai>80){
+}else if(nilai=>80){
     alert('Grade B+')
-}else if(nilai>70){
+}else if(nilai=>70){
     alert('Grade B')
 }else{
     alert('Grade F')
